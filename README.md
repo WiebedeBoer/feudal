@@ -1,2 +1,0 @@
-# feudal
-feudal manual
