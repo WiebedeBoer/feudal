@@ -70,6 +70,16 @@ display:block;border-style:solid;border-width:1px;border-color:#000000;}
 <li>County</li>
 </ul>
 
+<table class="tabel">
+<tr><th>Unit of Land</th><th>hides</th><th>tithings</th><th>manor court</th></tr>
+<tr><td>Hide</td><td class="b">1</td><td class="b">&‌#8530;</td><td class="u">&nbsp;</td></tr>
+<tr><td>Tithing</td><td class="b">10</td><td class="b">1</td><td class="b">&nbsp;</td></tr>
+<tr><td>Wapentake</td><td class="b">100</td><td class="b">10</td><td class="u">yes</td></tr>
+<tr><td>Commandery</td><td class="b">100+</td><td class="b">10+</td><td class="b">yes</td></tr>
+<tr><td>Bailiwick</td><td class="b">100+</td><td class="b">10+</td><td class="b">yes</td></tr>
+<tr><td>County</td><td class="b">100+</td><td class="b">10+</td><td class="b">yes</td></tr>
+</table>
+
 <H3>Virgate</H3>
 <p>The <I>virgate</I> is the smallest unit of land. A virgate is &frac14; of a hide. A <I>virgate</I> is the exact amount of land that can be worked by a serf in one annual season. Thus a maximum of 4 settlers can occupy a hide of land.</p>
 
@@ -78,9 +88,9 @@ display:block;border-style:solid;border-width:1px;border-color:#000000;}
 
 <table class="tabel">
 <tr><th>Estate</th><th>catholic</th><th>orthodox</th><th>muslim</th></tr>
-<tr><td>nobility</td><td class="b">squire</td><td class="b">squire</td><td class="b">bedouin</td></tr>
-<tr><td>clergy</td><td class="b">vicar</td><td class="b">vicar</td><td class="b">mullah</td></tr>
-<tr><td>monastic</td><td class="b">monk</td><td class="b">monk</td><td class="u">&nbsp;</td></tr>
+<tr><td>gentry</td><td class="b">squire</td><td class="b">squire</td><td class="b">mamluk</td></tr>
+<tr><td>ecclesiastical</td><td class="b">vicar</td><td class="b">vicar</td><td class="b">mullah</td></tr>
+<tr><td>monastical</td><td class="b">monk</td><td class="b">monk</td><td class="u">faqir</td></tr>
 <tr><td>burgher</td><td class="b">patrician</td><td class="b">patrician</td><td class="b">patrician</td></tr>
 </table>
 
@@ -89,10 +99,10 @@ display:block;border-style:solid;border-width:1px;border-color:#000000;}
 
 <table class="tabel">
 <tr><th>Estate</th><th>catholic</th><th>orthodox</th><th>muslim</th></tr>
-<tr><td>nobility</td><td class="b">knight</td><td class="b">knight / bogatyr</td><td class="b">mamluk / faris</td></tr>
-<tr><td>clergy</td><td class="b">pastor</td><td class="b">pastor</td><td class="b">imam</td></tr>
-<tr><td>monastic</td><td class="b">prior</td><td class="b">prior</td><td class="u">&nbsp;</td></tr>
-<tr><td>burgher</td><td class="b">schepen</td><td class="b">schepen</td><td class="b">schepen</td></tr>
+<tr><td>nobility</td><td class="b">knight</td><td class="b">knight</td><td class="b">faris</td></tr>
+<tr><td>ecclesiastical</td><td class="b">pastor</td><td class="b">pastor</td><td class="b">imam</td></tr>
+<tr><td>monastical</td><td class="b">prior</td><td class="b">prior</td><td class="u">ulama</td></tr>
+<tr><td>burgher</td><td class="b">echevin</td><td class="b">echev</td><td class="b">mushir</td></tr>
 </table>
 
 <H3>Wapentake</H3>
@@ -105,7 +115,7 @@ display:block;border-style:solid;border-width:1px;border-color:#000000;}
 
 <H3>Vill</H3>
 
-<p>A <i>vill</i> is a land unit that contains a settlement. This vill can either be a village or a borough. A vill can be a borough, if it has at least 600 inhabitants and a town wall. If a vill does not meet the requirement of a borough, then the vill becomes a <i>village</i> and its overlord a <i>Reeve</i>.</p>
+<p>A <i>vill</i> is a land unit that contains a settlement. This vill can either be a village or a borough. A vill can be a borough, if it has at least 600 inhabitants and a town wall. If a vill does not meet the requirement of a borough, then the vill becomes a <i>village</i>.</p>
 
 
 <table class="tabel">
@@ -126,50 +136,50 @@ display:block;border-style:solid;border-width:1px;border-color:#000000;}
 <th>Court Baron</th><th>Titular Overlord</th><th>Order</th><th>Ecclesiastical Building</th><th>Manor Building</th>
 </tr>
 <tr>
-<td>ward</td><td>Lord</td><td>nobility</td><td class="u">&nbsp;</td><td class="b">castle</td>
+<td>ward</td><td>Lord</td><td>gentry</td><td class="u">&nbsp;</td><td class="b">castle</td>
 </tr>
 <tr>
 <td>burgage</td><td>Lord-Mayor</td><td>burgher</td><td class="u">&nbsp;</td><td class="b">townhouse</td>
 </tr>
 <tr>
-<td>stift</td><td>Lord-Bishop</td><td>clergy</td><td class="b">cathedral</td><td class="b">townhouse</td>
+<td>stift</td><td>Lord-Bishop</td><td>ecclesiastical</td><td class="b">cathedral</td><td class="b">townhouse</td>
 </tr>
 <tr>
-<td>minster</td><td>Lord-Abbot</td><td>monastic</td><td class="b">abbey</td><td class="u">&nbsp;</td>
+<td>minster</td><td>Lord-Abbot</td><td>monastical</td><td class="b">abbey</td><td class="u">&nbsp;</td>
 </tr>
 <tr>
-<td>medina</td><td>Sharif</td><td>nobility</td><td class="u">&nbsp;</td><td class="b">kasbah</td>
+<td>medina</td><td>Sharif</td><td>gentry</td><td class="u">&nbsp;</td><td class="b">kasbah</td>
 </tr>
 <tr>
-<td>huree</td><td>Alip</td><td>nobility</td><td class="u">&nbsp;</td><td class="b">maihan</td>
+<td>huree</td><td>Alip</td><td>gentry</td><td class="u">&nbsp;</td><td class="b">maihan</td>
 </tr>
 <tr>
-<td>grad</td><td>Lord</td><td>nobility</td><td class="u">&nbsp;</td><td class="b">hall house</td>
+<td>grad</td><td>Lord</td><td>gentry</td><td class="u">&nbsp;</td><td class="b">hall house</td>
 </tr>
 </table>
 
-<p>There can be several vills within a <i>bailiwick</i>, but only 1 <i>vill</i> within the <i>bailiwick</i> has a <i>court baron</i>. The <i>vill</i> containing the court baron is the capital of a <i>bailiwick</i>. The overlords of other vills within a <i>bailiwick</i> therefore are of lesser rank than the overlord of the capital.</p>
+<p>There can be several vills within a <i>bailiwick</i>, but only one <i>vill</i> within the <i>bailiwick</i> has a <i>court baron</i>. The <i>vill</i> containing the court baron is the capital of a <i>bailiwick</i>. The overlords of other vills within a <i>bailiwick</i> therefore are of lesser rank than the overlord of the capital.</p>
 
 <p>A borough always has a Lord-Mayor as an overlord. Thus a borough that is also a ward, a stift, or a minster, has two overlords.</p>
 
 <H3>Manor</H3>
 
-<p>A manor encompasses all the hides within a <i>bailiwick</i> that belong to 1 <i>vill</i>.</p>
+<p>A manor encompasses all the hides within a <i>bailiwick</i> that belong to one <i>vill</i>.</p>
 
 <p>If the lord of the manor of a capital <i>vill</i> within a <i>bailiwick</i> has the feudal rank of <i>Mesne Lord</i> and has a knight as a <i>tenant paravail</i> or the <i>bailiwick</i> contains another <i>borough</i>, then that lord of the manor is styled with the title of Baron, or equivalent Commander, or Bailiff.</p>
 
 <p>If the manor is not a barony, then it is a lordship. The lord of the manor is then styled with the title of Lord, or equivalent Lord-Abbot, or Lord-Mayor.</p>
 
 <H3>County</H3>
-<p>A county is the largest possible territorial division within a realm. It exact size varies, but a county must contain at least 1 <i>vill</i> with a <i>court baron</i> of at least the level of <i>county court</i> and its overlord must have the feudal rank of <i>Tenant-in-chief</i>.</p>
+<p>A county is the largest possible territorial division within a realm. It exact size varies, but a county must contain at least one <i>vill</i> with a <i>court baron</i> of at least the level of <i>county court</i> and its overlord must have the feudal rank of <i>Tenant-in-chief</i>.</p>
 
-<p>The overlord of a county has the title of Burgrave or equivalent, if the county contains 1 <i>barony</i> and the capital <i>vill</i> of a county is either a <i>ward</i> or a <i>borough</i>.</p>
+<p>The overlord of a county has the title of Burgrave or equivalent, if the county contains one <i>barony</i> and the capital <i>vill</i> of a county is either a <i>ward</i> or a <i>borough</i>.</p>
 
-<p>The overlord of a county has the title of Count or equivalent, if the county contains 1 <i>barony</i>.</p>
+<p>The overlord of a county has the title of Count or equivalent, if the county contains one <i>barony</i>.</p>
 
-<p>The overlord of a county has the title of Marquis or equivalent, if the county contains 1 <i>barony</i> and is bordered to another realm or distuingished as a <i>march</i>.</p>
+<p>The overlord of a county has the title of Marquis or equivalent, if the county contains one <i>barony</i> and is bordered to another realm or distuingished as a <i>march</i>.</p>
 
-<p>The overlord of a county has the title of Duke or equivalent, if the county contains 1 <i>barony</i> and is at least the size of a <i>wapentake</i>.</p>
+<p>The overlord of a county has the title of Duke or equivalent, if the county contains one <i>barony</i> and is at least the size of a <i>wapentake</i>.</p>
 
 <H3>Diocese</H3>
 
@@ -187,29 +197,30 @@ display:block;border-style:solid;border-width:1px;border-color:#000000;}
 <tr><th>Tenant Paravail</th><td class="u">&nbsp;</td><td class="u">&nbsp;</td></tr>
 </table>
 
-
 <p>The archbishop ranks above the bishop. Some archbishops and bishops are cardinal bishops. These cardinals can elect a pope.</p>
 
 <H3>Realm &amp; Orders</H3>
 
 <p>All divisions are part of a realm. At the head of a realm is a <i>sovereign</i>. The title of a sovereign varies according to the order and precedence.</p>
 
-<p><b>crusader</b>
-<br>Grandmaster is the title for the sovereign of a crusader order. The sovereign of a crusader order ranks in order of precedence below a King.</p>
-
-<p><b>monastic</b>
-<br>Prince-Abbot is the title for the sovereign of a monastic order. The sovereign of a monastic order ranks in order of precedence below a King.</p>
+<p><b>stewardry</b>
+<br>Only errant of the stewardry order have sovereigns.</p>
 
 <p><b>burgher</b>
 <br>The sovereign of the burgher order has the title of Doge. The sovereign of a burgher order ranks in order of precedence below a King.</p>
 
-<p><b>clergy</b>
-<br>The monarch of a clergy order is a Prince-Archbishop. The monarch of a clergy order ranks in order of precedence below a King.</p>
-<p>An exception to the order of precedence is the Pope. The Pope is the head of the Catholic church, while the Patriarch is the head of an Orthodox church. The title of the Pope is in predence similar to that of an Emperor, but the secular powers of the Pope is equivalent to that of a King.</p>
+<p><b>crusader</b>
+<br>Prince Grandmaster or Crusader King is the title for the sovereign of a crusader order. The Prince grandmaster of a crusader order ranks in order of precedence below a King.</p>
 
-<p><b>nobility</b>
+<p><b>monastical</b>
+<br>The monastic order has no sovereign.</p>
+
+<p><b>ecclesiastical</b>
+<br>A Pope is the head of the Catholic church, while the Patriarch is the head of an Orthodox church. The title of the Pope is in precedence equivalent to that of a King.</p>
+
+<p><b>gentry</b>
 <br>A King is often the monarch of a nobility order.</p>
-<p>A Grand Duke and a Archduke are exceptions to the order of precedence. The Grand Duke is the lesser monarch of federalised union, where two realms are held by the same dynasty not yet consolidated. An Archduke on the other hand is a monarch that has a <i>demesne</i> at least the size of <i>Duke</i>, whose landed estates are both outside and inside an empire.</p>
+<p>The Grand Duke is the lesser monarch of federalised union, where two realms are held by the same dynasty not yet consolidated. An Archduke on the other hand is a monarch that has a <i>demesne</i> at least the size of <i>Duke</i>, whose landed estates are both outside and inside an empire.</p>
 <p>An emperor is the monarch of an Empire that has conquered and consolidated another <i>Kingdom</i>, or in the case of the Holy Roman Empire is elected as Emperor.</p>
 
 </div>
