@@ -1,0 +1,4 @@
+knight $200
+lord
+baron  
+castellan $1000 castle
